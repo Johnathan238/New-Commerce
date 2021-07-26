@@ -9,6 +9,19 @@ function FormInput({ name, label, required }) {
   return (
     <Grid item xs={12} sm={6}>
       <Controller
+        render={({ field }) => (
+          <TextField {...field} fullWidth label={label} required={required} />
+        )}
+        control={control}
+        name={name}
+        control={control}
+        label={label}
+        fullWidth
+        required={required}
+        error={isError}
+        defaultValue=""
+      />
+      {/* <Controller
         as={TextField}
         name={name}
         control={control}
@@ -16,7 +29,7 @@ function FormInput({ name, label, required }) {
         fullWidth
         required={required}
         error={isError}
-      />
+      /> */}
     </Grid>
   );
 }
