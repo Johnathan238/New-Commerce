@@ -24,3 +24,4 @@ const Products = ({ products, onAddToCart }) => {
 };
 
 export default Products;
+
