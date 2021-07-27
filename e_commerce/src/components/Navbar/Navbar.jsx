@@ -55,3 +55,5 @@ const PrimarySearchAppBar = ({ totalItems }) => {
 };
 
 export default PrimarySearchAppBar;
+
+//tHIS IS A DUMMY ONE
