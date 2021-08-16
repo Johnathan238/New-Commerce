@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 import { Link, useLocation } from 'react-router-dom';
-
 import logo from '../../assets/I AM PRODIGY FITNESS Logo.png'
 import useStyles from './styles';
+import './Navbar.css'
 
 const PrimarySearchAppBar = ({ totalItems }) => {
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
@@ -34,8 +34,8 @@ const PrimarySearchAppBar = ({ totalItems }) => {
     <>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
-          <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
-            <img src={logo} alt="commerce.js" height="25px" className={classes.image} /> Commerce.js
+          <Typography component={Link} to="/home" variant="h6" className={classes.title} color="inherit">
+            <img src={logo} alt="I AM PRODIGY FITNESS" height="25px" className={classes.image} /> I AM PRODIGY FITNESS
           </Typography>
           <div className={classes.grow} />
           {location.pathname === '/' && (
@@ -47,6 +47,21 @@ const PrimarySearchAppBar = ({ totalItems }) => {
             </IconButton>
           </div>
           )}
+          <li className="nav-item">
+
+            <Link to="/">
+            <span className="icon-button"> 🦾 </span>
+            </Link>
+
+            <Link to="/checkout">
+            <span className="icon-button"> 💳 </span>
+            </Link>
+
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_GMrl59g4LeierD0XkO2S5yLU6P8b4ItKtrvmfRnj4p4SmA/viewform?usp=sf_link" target="_blank" className="icon-button"> 📅 </a>
+            
+
+        </li>
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
