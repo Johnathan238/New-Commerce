@@ -38,16 +38,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
             <img src={logo} alt="I AM PRODIGY FITNESS" height="25px" className={classes.image} /> I AM PRODIGY FITNESS
           </Typography>
           <div className={classes.grow} />
-          {location.pathname === '/' && (
-          <div className={classes.button}>
-            <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
-              <Badge badgeContent={totalItems} color="secondary">
-                <ShoppingCart />
-              </Badge>
-            </IconButton>
-          </div>
-          )}
-          <li className="nav-item">
+          <li className={classes.button}>
 
             <Link to="/">
             <span className="icon-button"> 🦾 </span>
@@ -62,6 +53,15 @@ const PrimarySearchAppBar = ({ totalItems }) => {
             
 
         </li>
+          {location.pathname === '/' && (
+          <div className={classes.button}>
+            <IconButton component={Link} to="/cart" aria-label="Show cart items" color="inherit">
+              <Badge badgeContent={totalItems} color="secondary">
+                <ShoppingCart />
+              </Badge>
+            </IconButton>
+          </div>
+          )}
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
