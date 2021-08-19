@@ -3,7 +3,7 @@ import { CssBaseline } from '@material-ui/core';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar, Products, Cart, Checkout } from './components';
 import { commerce } from './lib/commerce';
-import {Blog} from './components/Home/Home'
+import Blog from './components/Home/Home'
 import './App.css'
 
 const App = () => {
@@ -78,6 +78,9 @@ const App = () => {
         <CssBaseline />
         <Navbar totalItems={cart.total_items} handleDrawerToggle={handleDrawerToggle} />
         <Switch>
+          <Route path="/Home">
+            <Blog />
+          </Route>
           <Route exact path="/">
             <Products products={products} onAddToCart={handleAddToCart} handleUpdateCartQty />
           </Route>
