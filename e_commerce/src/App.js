@@ -3,6 +3,7 @@ import { CssBaseline } from '@material-ui/core';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Navbar, Products, Cart, Checkout } from './components';
 import { commerce } from './lib/commerce';
+import {Blog} from './components/Home/Home'
 import './App.css'
 
 const App = () => {
