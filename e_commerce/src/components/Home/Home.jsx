@@ -48,8 +48,8 @@ const featuredPosts = [
     title: 'My 2 year body transformation SKINNY to RIPPED',
     date: 'Nov 12',
     description:
-      `Hey guys thanks for tuning in and welcome back to the channel. I put this video together because I wanted to show you all my progress for the 2 years that I have been doing fitness and with hopes that this video MOTIVATES ANYONE WATCHING, it was supposed to be a 3 year in August but i decided to do this now since #Corona had all gyms shut down since March so it was no point of waiting to make the video all the way then. But anyway I hope you enjoy please don't forget to LIKE COMMENT SUBSCRIBE SHARE. Thank you!!`
-    image: 'https://source.unsplash.com/random',
+      `Hey guys thanks for tuning in and welcome back to the channel. I put this video together because I wanted to show you all my progress for the 2 years that I have been doing fitness and with hopes that this video MOTIVATES ANYONE WATCHING, it was supposed to be a 3 year in August but i decided to do this now since #Corona had all gyms shut down since March so it was no point of waiting to make the video all the way then. But anyway I hope you enjoy please don't forget to LIKE COMMENT SUBSCRIBE SHARE. Thank you!!`,
+    image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80',
     imageText: 'My 2 year body transformation',
   },
   {
