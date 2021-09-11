@@ -9,7 +9,7 @@ import Markdown from './Markdown';
 const useStyles = makeStyles((theme) => ({
   markdown: {
     ...theme.typography.body2,
-    padding: theme.spacing(3, 0),
+    paddingTop: theme.spacing(3, 0),
   },
 }));
 

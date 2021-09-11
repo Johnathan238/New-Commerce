@@ -13,29 +13,29 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-import post1 from './blog-post.1.md';
-import post2 from './blog-post.2.md';
-import post3 from './blog-post.3.md';
+// import post1 from './blog-post.1.md';
+// import post2 from './blog-post.2.md';
+// import post3 from './blog-post.3.md';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(10),
-    paddingTop: '20px',
+    paddingTop: theme.spacing(1),
   },
 }));
 
-const sections = [
-  { title: 'Technology', url: '#' },
-  { title: 'Design', url: '#' },
-  { title: 'Culture', url: '#' },
-  { title: 'Business', url: '#' },
-  { title: 'Politics', url: '#' },
-  { title: 'Opinion', url: '#' },
-  { title: 'Science', url: '#' },
-  { title: 'Health', url: '#' },
-  { title: 'Style', url: '#' },
-  { title: 'Travel', url: '#' },
-];
+// const sections = [
+//   { title: 'Technology', url: '#' },
+//   { title: 'Design', url: '#' },
+//   { title: 'Culture', url: '#' },
+//   { title: 'Business', url: '#' },
+//   { title: 'Politics', url: '#' },
+//   { title: 'Opinion', url: '#' },
+//   { title: 'Science', url: '#' },
+//   { title: 'Health', url: '#' },
+//   { title: 'Style', url: '#' },
+//   { title: 'Travel', url: '#' },
+// ];
 
 const mainFeaturedPost = {
   title: 'NO PAIN NO GAIN',
@@ -64,7 +64,7 @@ const featuredPosts = [
   // },
 ];
 
-const posts = [post1, post2, post3];
+// const posts = [post1, post2, post3];
 
 const sidebar = {
   title: 'About',
@@ -104,7 +104,7 @@ export default function Blog() {
             ))}
           </Grid>
           <Grid container spacing={5} className={classes.mainGrid}>
-            <Main title="From the firehose" posts={posts} />
+            {/* <Main title="From the firehose" posts={posts} /> */}
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
