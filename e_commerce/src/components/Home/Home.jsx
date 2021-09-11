@@ -68,18 +68,24 @@ const posts = [post1, post2, post3];
 
 const sidebar = {
   title: 'About',
-  description:
-    'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+  description:`
+    'Prodigy Fitness Trainer 🏋🏽‍♂ ️',
+    Fitness Trainer,
+    𝐀𝐂𝐄-𝐂𝐏𝐓 | 𝟐𝟏 | 𝐍𝐘𝐂,
+    I help Men & Women with their fitness goals!
+    📍NYC Fitness Trainer,
+    🎯1-on-1 training,
+    💻Online Coaching'`,
   archives: [
     { title: 'Gmail', icon: AlternateEmailTwoToneIcon, url: 'mailto:prodigyfitness21@gmail.com' },
     { title: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/_prodigy.fitness/?hl=en' },
     { title: 'Twitter', icon: TwitterIcon, url: 'https://twitter.com/_prodigyfitness' },
   ],
-  social: [
-    { name: 'Gmail', icon: AlternateEmailTwoToneIcon, url: 'mailto:prodigyfitness21@gmail.com',  },
-    { name: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/_prodigy.fitness/?hl=en' },
-    { name: 'Twitter', icon: TwitterIcon, url: 'https://twitter.com/_prodigyfitness'},
-  ],
+  // social: [
+  //   { name: 'Gmail', icon: AlternateEmailTwoToneIcon, url: 'mailto:prodigyfitness21@gmail.com',  },
+  //   { name: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/_prodigy.fitness/?hl=en' },
+  //   { name: 'Twitter', icon: TwitterIcon, url: 'https://twitter.com/_prodigyfitness'},
+  // ],
 };
 
 export default function Blog() {
@@ -103,7 +109,7 @@ export default function Blog() {
               title={sidebar.title}
               description={sidebar.description}
               archives={sidebar.archives}
-              social={sidebar.social}
+              // social={sidebar.social}
             />
           </Grid>
         </main>

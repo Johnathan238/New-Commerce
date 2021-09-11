@@ -29,26 +29,17 @@ export default function Sidebar(props) {
         <Typography>{description}</Typography>
       </Paper>
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
-        Archives
+        Social
       </Typography>
       {archives.map((archive) => (
         <Link display="block" variant="body1" href={archive.url} key={archive.title}>
           {archive.title}
         </Link>
       ))}
-      <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
+      {/* <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         Social
-      </Typography>
-      {social.map((network) => (
-        <Link display="block" variant="body1" href="#" key={network}>
-          <Grid container direction="row" spacing={1} alignItems="center">
-            <Grid item>
-              <network.icon />
-            </Grid>
-            <Grid item>{network.name}</Grid>
-          </Grid>
-        </Link>
-      ))}
+      </Typography> */}
+
     </Grid>
   );
 }
@@ -56,6 +47,6 @@ export default function Sidebar(props) {
 Sidebar.propTypes = {
   archives: PropTypes.array,
   description: PropTypes.string,
-  social: PropTypes.array,
+  // social: PropTypes.array,
   title: PropTypes.string,
 };
