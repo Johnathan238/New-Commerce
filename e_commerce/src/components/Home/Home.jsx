@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import AlternateEmailTwoToneIcon from '@material-ui/icons/AlternateEmailTwoTone';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 // import Header from './Header';
@@ -19,7 +19,8 @@ import post3 from './blog-post.3.md';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
-    marginTop: theme.spacing(3),
+    marginTop: theme.spacing(10),
+    paddingTop: '20px',
   },
 }));
 
@@ -70,22 +71,14 @@ const sidebar = {
   description:
     'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
   archives: [
-    { title: 'March 2020', url: '#' },
-    { title: 'February 2020', url: '#' },
-    { title: 'January 2020', url: '#' },
-    { title: 'November 1999', url: '#' },
-    { title: 'October 1999', url: '#' },
-    { title: 'September 1999', url: '#' },
-    { title: 'August 1999', url: '#' },
-    { title: 'July 1999', url: '#' },
-    { title: 'June 1999', url: '#' },
-    { title: 'May 1999', url: '#' },
-    { title: 'April 1999', url: '#' },
+    { title: 'Gmail', icon: AlternateEmailTwoToneIcon, url: 'mailto:prodigyfitness21@gmail.com' },
+    { title: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/_prodigy.fitness/?hl=en' },
+    { title: 'Twitter', icon: TwitterIcon, url: 'https://twitter.com/_prodigyfitness' },
   ],
   social: [
-    { name: 'Gmail', icon: AlternateEmailTwoToneIcon, url: 'mailto:prodigyfitness21@gmail.com' },
-    { name: 'Twitter', icon: TwitterIcon },
-    { name: 'Facebook', icon: FacebookIcon },
+    { name: 'Gmail', icon: AlternateEmailTwoToneIcon, url: 'mailto:prodigyfitness21@gmail.com',  },
+    { name: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/_prodigy.fitness/?hl=en' },
+    { name: 'Twitter', icon: TwitterIcon, url: 'https://twitter.com/_prodigyfitness'},
   ],
 };
 
