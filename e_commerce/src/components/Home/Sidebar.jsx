@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.grey[200],
   },
   sidebarSection: {
-    marginTop: theme.spacing(3),
+    marginTop: theme.spacing(2),
   },
 }));
 

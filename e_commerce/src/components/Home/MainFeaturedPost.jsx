@@ -9,13 +9,15 @@ import Link from '@material-ui/core/Link';
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     position: 'relative',
-    backgroundColor: theme.palette.grey[800],
-    color: theme.palette.common.white,
+    // backgroundColor: theme.palette[500],
+    // color: theme.palette.common.white,
     marginBottom: theme.spacing(4),
+    marginTop: theme.spacing(10),
     backgroundImage: 'url(https://source.unsplash.com/random)',
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
+    backgroundPosition: 'right',
+    // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
   overlay: {
     position: 'absolute',
@@ -23,13 +25,14 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     right: 0,
     left: 0,
-    backgroundColor: 'rgba(0,0,0,.3)',
+    backgroundColor: '#013c8037',
+    // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
   mainFeaturedPostContent: {
     position: 'relative',
-    padding: theme.spacing(5),
+    padding: theme.spacing(2),
     [theme.breakpoints.up('md')]: {
-      paddingTop: theme.spacing(15),
+      paddingTop: theme.spacing(10),
       paddingRight: 0,
     },
   },
