@@ -8,10 +8,31 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Hidden from '@material-ui/core/Hidden';
+import Link from '@material-ui/core/Link';
 
-const useStyles = makeStyles({
-  card: {
-    display: 'flex',
+// const useStyles = makeStyles({
+//   card: {
+//     display: 'flex',
+//   },
+//   cardDetails: {
+//     flex: 1,
+//   },
+//   cardMedia: {
+//     width: 160,
+//   },
+// });
+
+const useStyles = makeStyles((theme) => ({
+  // mainGrid: {
+  //   marginTop: theme.spacing(4),
+  //   marginLeft: theme.spacing(5),
+  //   // paddingLeft: theme.spacing(5)
+  //   // paddingTop: theme.spacing(1.5),
+  // },
+    card: {
+      display: 'flex',
+      // paddingLeft: 50,
+      // width: 300,
   },
   cardDetails: {
     flex: 1,
@@ -19,7 +40,7 @@ const useStyles = makeStyles({
   cardMedia: {
     width: 160,
   },
-});
+}));
 
 export default function FeaturedPost(props) {
   const classes = useStyles();
@@ -40,6 +61,12 @@ export default function FeaturedPost(props) {
               <Typography variant="subtitle1" paragraph>
                 {post.description}
               </Typography>
+              <Typography component="h3" variant="h5">
+                {post.title1}
+              </Typography>
+              {/* /* <Link variant="subtitle1" href="#">
+                {post.linkText}
+              </Link> */ }
               {/* <Typography variant="subtitle1" color="primary">
                 Continue reading...
               </Typography> */}

@@ -19,8 +19,10 @@ import Sidebar from './Sidebar';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
-    marginTop: theme.spacing(10),
-    paddingTop: theme.spacing(1),
+    marginTop: theme.spacing(4),
+    marginLeft: theme.spacing(5),
+    // paddingLeft: theme.spacing(5)
+    // paddingTop: theme.spacing(1.5),
   },
 }));
 
@@ -54,14 +56,15 @@ const featuredPosts = [
     image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80',
     imageText: 'My 2 year body transformation',
   },
-  // {
-  //   title: 'Post title',
-  //   date: 'Nov 11',
-  //   description:
-  //     `Hey guys thanks for tuning in and welcome back to the channel. I put this video together because I wanted to show you all my progress for the 2 years that I have been doing fitness and with hopes that this video MOTIVATES ANYONE WATCHING, it was supposed to be a 3 year in August but i decided to do this now since #Corona had all gyms shut down since March so it was no point of waiting to make the video all the way then. But anyway I hope you enjoy please don't forget to LIKE COMMENT SUBSCRIBE SHARE. Thank you!!`,
-  //   image: 'https://source.unsplash.com/random',
-  //   imageText: 'Image Text',
-  // },
+  {
+    title: '1 on 1 Training:',
+    date: 'For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
+    description:
+      `For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.`,
+    title1: 'Personalized Workout Plans:',
+    image: 'https://source.unsplash.com/random',
+    imageText: 'Image Text',
+  },
 ];
 
 // const posts = [post1, post2, post3];
@@ -112,6 +115,11 @@ export default function Blog() {
               // social={sidebar.social}
             />
           </Grid>
+          <marquee>
+                <p className="footer--text">&copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness
+                - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness 
+                - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness - &copy; 2021 Prodigy Fitness</p>
+        </marquee>
         </main>
       </Container>
       {/* <Footer title="Footer" description="Something here to give the footer a purpose!" /> */}
