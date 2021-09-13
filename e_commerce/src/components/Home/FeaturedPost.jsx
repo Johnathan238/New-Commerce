@@ -48,7 +48,7 @@ export default function FeaturedPost(props) {
 
   return (
     <Grid item xs={12} md={6}>
-      <CardActionArea component="a" href="#">
+      <CardActionArea component="a" href="https://youtu.be/_caukWh354s" target="_blank">
         <Card className={classes.card}>
           <div className={classes.cardDetails}>
             <CardContent>
@@ -64,9 +64,12 @@ export default function FeaturedPost(props) {
               <Typography component="h3" variant="h5">
                 {post.title1}
               </Typography>
-              {/* /* <Link variant="subtitle1" href="#">
-                {post.linkText}
-              </Link> */ }
+              <Typography variant="subtitle1" paragraph>
+                {post.description2}
+              </Typography>
+               {/* <Link variant="subtitle1" href="https://youtu.be/_caukWh354s" target="_blank">
+                Lets watch it! 
+              </Link> */}
               {/* <Typography variant="subtitle1" color="primary">
                 Continue reading...
               </Typography> */}

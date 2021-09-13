@@ -62,6 +62,8 @@ const featuredPosts = [
     description:
       `For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.`,
     title1: 'Personalized Workout Plans:',
+    description2:
+      `For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time.`,
     image: 'https://source.unsplash.com/random',
     imageText: 'Image Text',
   },
