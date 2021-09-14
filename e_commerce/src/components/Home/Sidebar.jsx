@@ -32,7 +32,7 @@ export default function Sidebar(props) {
         Social
       </Typography>
       {archives.map((archive) => (
-        <Link display="block" variant="body1" href={archive.url} key={archive.title}>
+        <Link display="block" variant="body1" href={archive.url} key={archive.title} target="_blank">
           {archive.title}
         </Link>
       ))}

@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     right: 0,
     left: 0,
-    backgroundColor: '#013c8037',
+    // backgroundColor: '#013c8037',
     // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
   mainFeaturedPostContent: {

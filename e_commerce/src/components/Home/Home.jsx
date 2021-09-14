@@ -20,6 +20,7 @@ import Sidebar from './Sidebar';
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(4),
+    
     // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
     // marginLeft: theme.spacing(2),
     // paddingLeft: theme.spacing(5)
@@ -54,7 +55,7 @@ const featuredPosts = [
     date: 'Nov 12',
     description:
       `Hey guys thanks for tuning in and welcome back to the channel. I put this video together because I wanted to show you all my progress for the 2 years that I have been doing fitness and with hopes that this video MOTIVATES ANYONE WATCHING, it was supposed to be a 3 year in August but i decided to do this now since #Corona had all gyms shut down since March so it was no point of waiting to make the video all the way then. But anyway I hope you enjoy please don't forget to LIKE COMMENT SUBSCRIBE SHARE. Thank you!!`,
-    image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80',
+    image: 'https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1867&q=80',
     imageText: 'My 2 year body transformation',
   },
   {
@@ -65,7 +66,7 @@ const featuredPosts = [
     title1: 'Personalized Workout Plans:',
     description2:
       `For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time.`,
-    image: 'https://source.unsplash.com/random',
+    image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80',
     imageText: 'Image Text',
   },
 ];
