@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'right',
+    // color: '#ffffff',
     // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
   overlay: {
@@ -25,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     right: 0,
     left: 0,
-    // backgroundColor: '#013c8037',
+    backgroundColor: 'rgb(202,233,255,0.42947601403842783)',
+    // background: 'linear-gradient(90deg, #62b6cb 30%, #cae9ff 90%)',
     // background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
   mainFeaturedPostContent: {
