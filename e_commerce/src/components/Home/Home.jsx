@@ -63,7 +63,7 @@ const featuredPosts = [
     date: 'For those that want the full experience and want to maximize and meet their full physique potential. *Brooklyn based area ONLY* ',
     description:
       `For those with very busy schedules but are still dedicated to their body goals and want to perform a highly effective exercise in the comfort of their own home, backyard, etc.`,
-    title1: 'Personalized Workout Plans:',
+    title1: 'Online Coaching:',
     description2:
       `For those that are experienced and need a set of workouts based on THEIR OWN body type to follow on their own time.`,
     image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80',
